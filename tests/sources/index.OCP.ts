@@ -1,6 +1,6 @@
-import { runBattles, pve, pvp, player1, player2, player3, monster1, monster2 } from '../../src';
+import { monster1, monster2, player1, player2, player3, pve, pvp, runBattles } from '../../src';
 import Battle from '../../src/Battle';
-import Fighter from '../../src/Fighter';
+import Fighter from '../../src/Fighter/Fighter';
 
 class B extends Battle { }
 class F implements Fighter {

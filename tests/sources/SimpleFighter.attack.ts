@@ -1,4 +1,4 @@
-import { SimpleFighter } from '../../src/Fighter';
+import { SimpleFighter } from '../../src/Fighter/Fighter';
 
 class F implements SimpleFighter {
   constructor(

@@ -1,4 +1,4 @@
-import Fighter from '../Fighter';
+import Fighter from '../Fighter/Fighter';
 
 export default class Battle {
   constructor(protected player: Fighter) { }
