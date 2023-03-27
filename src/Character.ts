@@ -5,7 +5,7 @@ import Fighter from './Fighter/Fighter';
 import Race, { Elf } from './Races';
 import getRandomInt from './utils';
 
-export default class Chacarcter implements Fighter {
+export default class Character implements Fighter {
   private _race: Race;
   private _archetype: Archetype;
   private _maxLifePoints: number;
@@ -59,17 +59,16 @@ export default class Chacarcter implements Fighter {
 
   receiveDamage(attackPoints: number): number {
     const damage = attackPoints - this._defense;
-    let lifePoints = this._lifePoints;
-
+    
     if (damage > 0) {
-      lifePoints -= damage;
+      this._lifePoints -= damage;
     }
-    lifePoints -= 1;
+    this._lifePoints -= 1;
 
-    if ((lifePoints - damage) <= 0) {
-      lifePoints = -1;
+    if ((this._lifePoints - damage) <= 0) {
+      this._lifePoints = -1;
     }
-    return lifePoints;
+    return this._lifePoints;
   }
 
   attack(enemy: Fighter | SimpleFighter): void {
