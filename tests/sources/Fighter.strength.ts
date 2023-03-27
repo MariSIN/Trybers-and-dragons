@@ -1,4 +1,4 @@
-import Fighter from '../../src/Fighter/Fighter';
+import Fighter from '../../src/Fighter';
 
 const f = (obj: Fighter): number => {
   return obj.strength;
