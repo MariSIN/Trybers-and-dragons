@@ -3,7 +3,7 @@
   Neste projeto foi utilizado typescript e os princípios de `POO` em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos `RPG` (_Role Playing Game_).
 
 <details>
-  <summary><strong>🐋 Rodando no Docker vs Localmente</strong></summary><br />
+  <summary><strong>🐋 Rodando no Docker</strong></summary><br />
 
   > Rode o serviço `node` com o comando `docker-compose up -d`.
   - Esse serviço irá inicializar um container chamado `trybers_and_dragons`.
