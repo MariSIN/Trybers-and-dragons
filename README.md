@@ -138,7 +138,6 @@ Cada personagem será composta tanto por uma raça quanto por um arquétipo. Ess
 
 <br>
 </details>
----
 
 ### 8 - Crie a interface `SimpleFighter`
 
