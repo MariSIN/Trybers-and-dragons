@@ -150,6 +150,7 @@ Uau, o nosso universo de T&D está ficando fabuloso! No entanto, nem todo mundo 
 <br>
 
 ---
+</details>
 
 ### 9 - Crie a classe `Monster`
 
